@@ -13,6 +13,7 @@
 		F64220B11CFD8C3B002F5770 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F64220AF1CFD8C3B002F5770 /* Main.storyboard */; };
 		F64220B31CFD8C3B002F5770 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F64220B21CFD8C3B002F5770 /* Assets.xcassets */; };
 		F64220B61CFD8C3B002F5770 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F64220B41CFD8C3B002F5770 /* LaunchScreen.storyboard */; };
+		F64220BF1CFD8E7E002F5770 /* UIView+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = F64220BE1CFD8E7E002F5770 /* UIView+Color.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		F64220B21CFD8C3B002F5770 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F64220B51CFD8C3B002F5770 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F64220B71CFD8C3B002F5770 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F64220BD1CFD8E7E002F5770 /* UIView+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Color.h"; sourceTree = "<group>"; };
+		F64220BE1CFD8E7E002F5770 /* UIView+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Color.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				F64220AA1CFD8C3B002F5770 /* AppDelegate.m */,
 				F64220AC1CFD8C3B002F5770 /* ViewController.h */,
 				F64220AD1CFD8C3B002F5770 /* ViewController.m */,
+				F64220BD1CFD8E7E002F5770 /* UIView+Color.h */,
+				F64220BE1CFD8E7E002F5770 /* UIView+Color.m */,
 				F64220AF1CFD8C3B002F5770 /* Main.storyboard */,
 				F64220B21CFD8C3B002F5770 /* Assets.xcassets */,
 				F64220B41CFD8C3B002F5770 /* LaunchScreen.storyboard */,
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F64220BF1CFD8E7E002F5770 /* UIView+Color.m in Sources */,
 				F64220AE1CFD8C3B002F5770 /* ViewController.m in Sources */,
 				F64220AB1CFD8C3B002F5770 /* AppDelegate.m in Sources */,
 				F64220A81CFD8C3B002F5770 /* main.m in Sources */,

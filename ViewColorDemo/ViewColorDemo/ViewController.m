@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UIView+Color.h"
 
 @interface ViewController ()
 
@@ -16,6 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.view.backgroundColor = [UIView greenColor];
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
