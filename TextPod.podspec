@@ -56,7 +56,7 @@ Pod::Spec.new do |s|
   s.author             = { "whqfor" => "whquang979@gmail.com" }
   # Or just: s.author    = "whqfor"
   # s.authors            = { "whqfor" => "" }
-  s.social_media_url   = "http://github.com/whqfor"
+  # s.social_media_url   = "http://github.com/whqfor"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "TextPod/"
+  s.source_files  = "TextPod/*"
 
   # s.exclude_files = "Classes/Exclude"
 
@@ -119,7 +119,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+  # s.frameworks = "Foundation", "UIKit"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
